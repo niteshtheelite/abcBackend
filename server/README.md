@@ -23,7 +23,7 @@ Follow these steps to run the backend project on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone git@github.com:niteshtheelite/abcBackend.git
 cd your-repo-name
 ```
 
@@ -60,16 +60,6 @@ docker-compose up --build
 
 ---
 
-### 4. Test the API
-
-Use Postman or curl to test API endpoints, for example:
-
-```bash
-curl http://localhost:5000/api/health
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -81,8 +71,7 @@ project-root/
 ├── .env.example
 ├── README.md
 ├── package.json
-└── src/
-    └── index.js (or your main server file)
+└── index.js (or your main server file)
 ```
 
 ---
